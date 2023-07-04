@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to the Quiz");
-		System.out.println("In this simple quiz, you will be asked 10 question and you have 2 attempt for each question,"
+		System.out.println("In this simple quiz, you will be asked 10 questions and you have 2 attempts for each question,"
 				+ "\n if you get it right at first you will be given full and half for the second attempt");
 		
 		for (int i = 0; i < 10; i++) {
