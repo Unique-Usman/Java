@@ -72,4 +72,4 @@ int main()
 
 	cout << findInMountainArray(2, arr) << endl;
 
-}
+
