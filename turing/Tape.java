@@ -1,5 +1,5 @@
-package turing;
 
+import turing.Cell;
 /**
  * Represents a Tape which contains multiple cells.
  * The Tape is used in a Turing Machine simulation.
