@@ -1,0 +1,21 @@
+Assignment Description:
+
+The assignment involves developing a program for tracking inspections at three stations in a manufacturing assembly line for building automobiles. The program uses a stack data structure to keep track of inspections. Initially, the stack is filled with three zeros to represent inspections that have not yet occurred. At each station, one item is popped from the stack, and the result is printed to the console.
+
+Algorithm Description:
+
+1. Initialize a stack of size 3 with 0, 1, 2 to represent inspections not yet occurred.
+2. Simulate inspections at three stations by popping items from the stack and printing the results.
+3. Ensure exception handling for cases where the stack is empty or full to prevent errors during push and pop operations.
+
+Asymptotic Analysis:
+
+1. Push Operation: The push operation involves incrementing the `top` pointer by 1 and assigning a value to the stack. This operation has a time complexity of O(1) because it performs a constant number of operations regardless of the stack's size.
+
+2. Pop Operation: The pop operation involves decrementing the `top` pointer by 1 and retrieving a value from the stack. This operation also has a time complexity of O(1) because it performs a constant number of operations regardless of the stack's size.
+
+3. Initialization: Initializing the stack with three zeros has a time complexity of O(1) because it involves a fixed number of assignments, which do not depend on the size of the stack.
+
+4. Simulating Inspections: Simulating inspections at three stations involves three pop operations and three print statements. Since each pop operation has a time complexity of O(1) and print statements are typically considered O(1) for analysis, the overall time complexity for simulating inspections is O(1).
+
+Overall, the algorithm's efficiency, expressed in Big O notation, is O(1). This means that the time complexity of the algorithm does not depend on the size of the stack or the number of inspections, making it efficient for the given task of tracking inspections in the manufacturing assembly line.

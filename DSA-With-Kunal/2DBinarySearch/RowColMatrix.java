@@ -9,7 +9,6 @@ public class RowColMatrix {
         };
         System.out.println(Arrays.toString(search(arr, 38)));
     }
-
     static int[] search(int[][] matrix, int target){
         int row = 0;
         int col = matrix[0].length - 1;
